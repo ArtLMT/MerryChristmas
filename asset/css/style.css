@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
+body {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/25839/trees.svg) repeat-x;
+}
+
+.snow {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 1080px;
+	top: -100px;
+}
+
+
+.wish {
+	position: relative;
+	width: 100%;
+	height: 890px;
+	
+}
+
+.decoration {
+	display: flex;
+	max-height: 0px;
+}
+
+.merry {
+	padding-top: 0px;
+	color: #c84257;
+	position: relative;
+	font-family: 'Mountains of Christmas';
+	text-align: center;
+	align-self: center;
+	justify-self: center;
+	font-size: 84px;
+	font-weight: 900;
+	letter-spacing: 10px;
+}
+
+.merry h1 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.merry h2 {
+	margin-bottom: 50px;
+}
+
+#merry-container {
+    position: relative;
+	width: 1500px;
+    height: 60px; /* Matches a single line height */
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center; /* Ensures the text is centered */
+}
+
+#merry-container span {
+    opacity: 0; /* Hidden by default */
+    visibility: hidden; /* Not interactive */
+    position: absolute; /* Ensures all lines overlap */
+    left: 0; /* Align spans to the container */
+    right: 0;
+    top: 0; /* Align to the top of the container */
+    transition: opacity 1s ease-in-out, visibility 0s linear 1s; /* Delayed visibility */
+}
+
+#merry-container span.active {
+    opacity: 1; /* Fully visible */
+    visibility: visible; /* Interactive */
+    transition: opacity 1s ease-in-out, visibility 0s linear 0s; /* Immediate visibility */
+}
+.merry p {
+	font-size: 40px;
+	margin-top:130px;
+}
+
+
+.fox {
+	align-self: end;
+	position: relative;
+    left: 1500px;
+}
+
+.tree {
+    position: relative;
+	align-self: end;
+	justify-self: end;
+    right:400px;
+}
+
+.hutao{
+	position: relative;
+	align-self: end;
+	justify-self: end;
+	/* top: 20px; */
+}
+
+.hutao img {
+	width: 400px;
+	max-height: 400px;
+}
