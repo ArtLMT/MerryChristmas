@@ -18,8 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     showLine(); // Show the first line immediately
-    const interval = setInterval(showLine, 4000); // Switch lines every 5 seconds
+    const interval = setInterval(showLine, 4000); // Switch lines every 4 seconds
   });
+
+  
   particlesJS("particles-js", {
     "particles": {
       "number": {
