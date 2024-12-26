@@ -7,10 +7,13 @@
 	<link rel="stylesheet" href="./asset/css/reset.css">
 	<link rel="stylesheet" href="./asset/css/style.css">
 
-
+	<link rel="stylesheet" href="">
 </head>
 <body>
 	<div id="particles-js" class="snow"></div>
+	<!-- <audio id="audio" src="./asset/audio/giangsinh.mp3"></audio> -->
+	<audio id="audio" src="./asset/audio/giangsinh.mp3">
+	</audio>
 	<div class="wish">
 		<div class="merry">
 			<h1>Merry Christmas</h1>
@@ -43,6 +46,12 @@
 			<img src="./asset/icon/hutao.png" alt="">
 		</div>
 	</div>
+	<script>
+		document.body.addEventListener("click", function () {
+		  var audio = document.getElementById("audio");
+		  audio.play();
+		});
+	  </script>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script src="main.js"></script>
 </body>
