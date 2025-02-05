@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const interval = setInterval(showLine, 4000); // Switch lines every 4 seconds
   });
 
-  
+  // snow particle
   particlesJS("particles-js", {
     "particles": {
       "number": {
